@@ -1,0 +1,54 @@
+[
+  {
+    "id": "button-primary",
+    "name": "主按钮",
+    "type": "button",
+    "category": "UI组件",
+    "version": "1.0.0",
+    "description": "一个可自定义的主要按钮组件",
+    "thumbnailPath": "button-primary.png",
+    "schema": {
+      "properties": {
+        "text": { "type": "string", "defaultValue": "点击我" },
+        "color": { "type": "color", "defaultValue": "#4285F4" },
+        "onClick": { "type": "function", "defaultValue": null }
+      }
+    }
+  },
+  {
+    "id": "card-info",
+    "name": "信息卡片",
+    "type": "card",
+    "category": "UI组件",
+    "version": "1.0.0",
+    "description": "带有标题和内容的信息卡片",
+    "thumbnailPath": "card-info.png",
+    "schema": {
+      "properties": {
+        "title": { "type": "string", "defaultValue": "卡片标题" },
+        "content": { "type": "string", "defaultValue": "这是一个信息卡片的内容" },
+        "imageUrl": { "type": "string", "defaultValue": "" },
+        "width": { "type": "string", "defaultValue": "320px" },
+        "borderRadius": { "type": "string", "defaultValue": "8px" }
+      }
+    }
+  },
+  {
+    "id": "chart-bar",
+    "name": "柱状图",
+    "type": "chart",
+    "category": "图表",
+    "version": "1.0.0",
+    "description": "一个可自定义的柱状图组件",
+    "thumbnailPath": "chart-bar.png",
+    "schema": {
+      "properties": {
+        "title": { "type": "string", "defaultValue": "数据统计" },
+        "data": { "type": "array", "defaultValue": [30, 50, 70, 40, 60] },
+        "labels": { "type": "array", "defaultValue": ["一月", "二月", "三月", "四月", "五月"] },
+        "color": { "type": "color", "defaultValue": "#4285F4" },
+        "height": { "type": "string", "defaultValue": "300px" }
+      }
+    }
+  }
+] 
